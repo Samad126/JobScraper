@@ -1,0 +1,13 @@
+{
+  "name": "jobscraper-collector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch_channel.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

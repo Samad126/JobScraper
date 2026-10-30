@@ -1,0 +1,105 @@
+[
+  {
+    "pattern": "data engineer|data m.h.ndis|data üzrə mühəndis|data platform",
+    "role": "Data Engineer"
+  },
+  {
+    "pattern": "machine learning|\\bML\\b(?!ops)|\\bML/AI\\b|AI/ML",
+    "role": "Machine Learning Engineer"
+  },
+  {
+    "pattern": "data analy|data analit|data təhlil|data analiz",
+    "role": "Data Analyst"
+  },
+  {
+    "pattern": "^\\s*receptionist\\b",
+    "role": "Receptionist"
+  },
+  {
+    "pattern": "professor",
+    "role": "Professor / Lecturer",
+    "force": true
+  },
+  {
+    "pattern": "^\\s*intern(ship)?\\s*$",
+    "role": "Unspecified Role"
+  },
+  {
+    "pattern": "flutter",
+    "role": "Mobile Developer"
+  },
+  {
+    "pattern": "\\bandroid\\b",
+    "role": "Android Developer",
+    "unless": "\\bios\\b|flutter|react native|cross[- ]?platform|multi[- ]?platform"
+  },
+  {
+    "pattern": "help ?desk|technical support|texniki dəstək|it support|service desk|texniki servis",
+    "role": "IT Support / Helpdesk",
+    "from": [
+      "System Administrator"
+    ],
+    "unless": "administrat|network|şəbəkə|sistem"
+  },
+  {
+    "pattern": "penetration|pentest",
+    "role": "Penetration Tester"
+  },
+  {
+    "pattern": "\\bSOC\\b",
+    "role": "Security Operations Analyst"
+  },
+  {
+    "pattern": "ux/ui|ui/ux|ux ?design|ui ?design",
+    "role": "UX/UI Designer",
+    "unless": "develop|engineer|front"
+  },
+  {
+    "pattern": "^\\s*(artificial intelligence|ai)\\b",
+    "role": "AI Engineer",
+    "unless": "data scien|manager|business development"
+  },
+  {
+    "pattern": "\\berp\\b|\\bcrm\\b|dynamics 365",
+    "role": "ERP/CRM Specialist",
+    "unless": "analy|analit|manager|java|python|\\.net|php|back|front"
+  },
+  {
+    "pattern": "human resources|\\bHR\\b",
+    "role": "HR Specialist"
+  },
+  {
+    "pattern": "^\\s*marketing\\b",
+    "role": "Marketing Specialist"
+  },
+  {
+    "pattern": "\\bdevops\\b",
+    "role": "DevOps Engineer",
+    "from": [
+      "System Administrator"
+    ]
+  },
+  {
+    "pattern": "təcrübə proqram|staj|cohort",
+    "role": "Unspecified Role",
+    "from": [
+      "Software Developer",
+      "Data Technology Specialist"
+    ],
+    "unless": "developer|proqramçı|engineer|embedded|c#|c\\+\\+|java|python|php|\\.net"
+  },
+  {
+    "pattern": "full[\\s-]?stack",
+    "role": "Full-Stack Developer",
+    "from": [
+      "Backend Developer",
+      "Frontend Developer",
+      "Software Developer"
+    ]
+  },
+  {
+    "pattern": "müəllim|təlimçi|\\bteacher\\b|\\binstructor\\b|\\btrainer\\b|\\bmentor\\b|\\blecturer\\b",
+    "role": "Instructor / Trainer",
+    "unless": "analy|manager|head of|engineer|developer|specialist|professor"
+  }
+]

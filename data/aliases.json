@@ -1,0 +1,36 @@
+{
+  "location": {
+    "الرياض": "Riyadh",
+    "جدة": "Jeddah",
+    "الدمام": "Dammam",
+    "bakı": "Baku",
+    "baku": "Baku",
+    "bakı, azərbaycan": "Baku",
+    "baku, azerbaijan": "Baku",
+    "Babek Plaza": "Baku",
+    "Binəqədi": "Baku",
+    "A.Aqarunov 20A, Regent Plaza": "Baku",
+    "Passage 1901, Nigar Rəfibəyli Küç.12": "Baku",
+    "Resant Office Center, Narimanov R., Aşıq Molla Cümə Küçəsi": "Baku",
+    "Dərnəgül Metrosu Yaxınlığı, Süleyman Sani Axundov 441D": "Baku",
+    "Səbail Rayonu, Bayıl Ərazisi": "Baku",
+    "Sumgayit": "Sumqayıt",
+    "Gəncə Şəhəri": "Gəncə",
+    "Shusha": "Şuşa",
+    "Bakıxanov Qəs.": "Baku"
+  },
+  "category": {
+    "software development": "Software",
+    "software engineering": "Software"
+  },
+  "role": {
+    "IT Help Desk Specialist": "IT Support / Helpdesk",
+    "IT Helpdesk Specialist": "IT Support / Helpdesk",
+    "IT Support Specialist": "IT Support / Helpdesk",
+    "Technical Support Specialist": "IT Support / Helpdesk",
+    "IT Helpdesk": "IT Support / Helpdesk",
+    "Java Backend Developer": "Backend Developer",
+    "Angular Developer": "Frontend Developer",
+    "AI Specialist": "AI Engineer"
+  }
+}
