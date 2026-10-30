@@ -139,9 +139,9 @@ st.subheader("Job titles")
 st.caption("Spelling variants are counted together (Front-End / Frontend, Help Desk / Helpdesk, İT / IT).")
 st.dataframe(title_groups(f, None if show_all else 200), width="stretch", hide_index=True)
 
-with st.expander("All jobs"):
+with st.expander("All jobs"):  # the post text itself is not shown, so a public deployment does not republish the channels
     st.dataframe(
-        f[["channel", "posted_at", "job_title", "role", "specialization", "level", "category", "location", "company", "stack", "text"]],
+        f[["channel", "posted_at", "job_title", "role", "specialization", "level", "category", "location", "company", "stack", "url"]],
         width="stretch", hide_index=True,
         column_config={"posted_at": st.column_config.DateColumn("posted")},
     )
