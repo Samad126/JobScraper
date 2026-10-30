@@ -52,7 +52,7 @@ with st.sidebar:
         in_range = True
     levels_present = [x for x in ["Intern", "Junior", "Middle", "Senior", "Lead", "Head"] if x in set(df["level"].dropna())]
     levels = st.multiselect("Level (empty = all)", levels_present + ["Not stated"])
-    show_all = st.checkbox("Show all (no limit)")
+    show_all = st.checkbox("Show all (no limit)", value=True)
     top = None if show_all else st.slider("Show top N", 5, 100, 15)
 
 in_level = df["level"].fillna("Not stated").isin(levels) if levels else True
